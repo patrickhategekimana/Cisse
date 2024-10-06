@@ -1,0 +1,12 @@
+# Set the default behavior to automatically normalize line endings.
+* text=auto
+
+# Explicitly set files to have LF line endings.
+*.sh text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+
+# Explicitly set files to have CRLF line endings.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
